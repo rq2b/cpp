@@ -1,0 +1,30 @@
+# dirs
+build/
+out/
+cmake-build-*/
+
+# compiled
+*.out
+*.exe
+*.dll
+*.so
+*.a
+*.o
+*.obj
+
+# debug
+*.dSYM/
+*.pdb
+*.profraw
+*.profdata
+
+# cmake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+Makefile
+
+# editors
+.vscode/
+.idea/
